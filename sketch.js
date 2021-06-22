@@ -11,8 +11,9 @@ function setup(){
     world = engine.world;
 
   
-    ground = new Ground(500,400,1000,20)
+    ground1 = new Ground(500,400,1000,20)
     log=new box(300,100,50,100,0)
+    ground2 = new Ground(500,400,1000,21)
 }
 
 function draw(){
